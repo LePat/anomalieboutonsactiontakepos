@@ -2,11 +2,18 @@
 
 ## Features
 
-Description of the module...
+Ajouter des boutons d'action en utilisant le hook dédié de TakePOS pour reproduire le bug: suivant le nombre de boutons il y a des soucis d'affichage et de navigation entre les "écrans" des boutons lorsque le nombre de boutons dépasse la capacité d'affichage.
 
-<!--
-![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos.png?raw=true "AnomalieBoutonsActionTakePOS"){imgmd}
--->
+Dans le fichier actions_anomalieboutonsactiontakepos.class.php ligne 39, commenter des lignes pour jouer avec le nombre de boutons...
+
+### Premier panneau sans le bouton Suivant et le bouton de pesée manquant:
+
+![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos01.png?raw=true "AnomalieBoutonsActionTakePOS")
+
+
+### Deuxième panneau avec bouton vide avant le bouton de pesée:
+
+![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos02.png?raw=true "AnomalieBoutonsActionTakePOS")
 
 Other external modules are available on [Dolistore.com](https://www.dolistore.com).
 

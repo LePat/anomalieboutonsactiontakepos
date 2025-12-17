@@ -38,9 +38,9 @@ class ActionsAnomalieBoutonsActionTakePOS extends CommonHookActions
     {
         $this->results[][] = array('title' => '<span class="fa fa-edit"></span><div class="trunc">Edit</div>', 'action' => 'console.log(\'edit\');');
         $this->results[][] = array('title' => '<span class="fa fa-save"></span><div class="trunc">Save</div>', 'action' => 'console.log(\'save\');');
-        $this->results[][] = array('title' => '<span class="fa fa-search"></span><div class="trunc">Search</div>', 'action' => 'console.log(\'search\');');
-        $this->results[][] = array('title' => '<span class="fa fa-trash"></span><div class="trunc">Suppr</div>', 'action' => 'console.log(\'suppr\');');
-        $this->results[][] = array('title' => '<span class="fa fa-plus-circle"></span><div class="trunc">Plus</div>', 'action' => 'console.log(\'plus\');');
+        //$this->results[][] = array('title' => '<span class="fa fa-search"></span><div class="trunc">Search</div>', 'action' => 'console.log(\'search\');');
+        //$this->results[][] = array('title' => '<span class="fa fa-trash"></span><div class="trunc">Suppr</div>', 'action' => 'console.log(\'suppr\');');
+        //$this->results[][] = array('title' => '<span class="fa fa-plus-circle"></span><div class="trunc">Plus</div>', 'action' => 'console.log(\'plus\');');
         return 0;
     }
 
