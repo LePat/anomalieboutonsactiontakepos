@@ -6,16 +6,32 @@ Ajouter des boutons d'action en utilisant le hook dédié de TakePOS pour reprod
 
 Dans le fichier actions_anomalieboutonsactiontakepos.class.php ligne 39, commenter des lignes pour jouer avec le nombre de boutons...
 
-### Premier panneau sans le bouton Suivant et le bouton de pesée manquant:
+### Avec le bug
+#### Premier panneau sans le bouton Suivant et le bouton de pesée manquant (il devrait y avoir 12 boutons):
 
 ![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos01.png?raw=true "AnomalieBoutonsActionTakePOS")
 
 
-### Deuxième panneau avec bouton vide avant le bouton de pesée:
+#### Deuxième panneau avec bouton vide avant le bouton de pesée (lorsqu'il y a plus de 12 boutons):
 
 ![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos02.png?raw=true "AnomalieBoutonsActionTakePOS")
 
 Other external modules are available on [Dolistore.com](https://www.dolistore.com).
+
+### Bug corrigé
+#### Avec 12 boutons
+
+![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos03.png?raw=true "AnomalieBoutonsActionTakePOS")
+
+
+#### Avec plus que 12 boutons
+
+![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos04.png?raw=true "AnomalieBoutonsActionTakePOS")
+
+Deuxième panneau (après avoir appuyé sur Suivant), le bouton pour revenir au premier panneau est bien "Précédent"
+
+![Screenshot anomalieboutonsactiontakepos](img/screenshot_anomalieboutonsactiontakepos05.png?raw=true "AnomalieBoutonsActionTakePOS")
+
 
 ## Translations
 
